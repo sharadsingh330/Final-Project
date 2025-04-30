@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://wa.me/919935157330">WhatsApp</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="https://x.com/sharadsingh22">Tweeter</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/sharad-singh-747986362">Linkedin</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://github.com/sharadsingh330">Github</a></li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+ 
+
+
+
+<!-- Cards -->
+<div  class="d-flex flex-row flex-wrap justify-content-between">
+  <div class="row justify-content-center">
+    <!-- Repeat this col-md-4 for each card -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="new1.jpeg" class="card-img-top" alt="Author Image">
+        <div class="card-body">
+          <h4 class="card-title">Web Developmen</h4>
+          <p class="card-text">Learn to build websites and web applications using HTML, CSS, and JavaScript.</p>
+          <a href="#" class="btn btn-primary">CLICK TO LEARN</a>
+        </div>
+      </div>
+    </div>
+    <!-- Add 5 more col-md-4 blocks like above for 6 cards total -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="new2.jpeg" class="card-img-top" alt="Author Image">
+        <div class="card-body">
+          <h4 class="card-title">Data Science</h4>
+          <p class="card-text">Understand and analyze data to make smart business decisions.
+          </p>
+          <a href="#" class="btn btn-primary">CLICK TO LEARN</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="new3.jpeg" class="card-img-top" alt="Author Image">
+        <div class="card-body">
+          <h4 class="card-title">Digital Marketing</h4>
+          <p class="card-text">Learn how to promote products or services online using SEO and social media.
+          </p>
+          <a href="#" class="btn btn-primary">CLICK TO LEARN</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="new4.jpeg" class="card-img-top" alt="Author Image">
+        <div class="card-body">
+          <h4 class="card-title">Graphic Designing</h4>
+          <p class="card-text">Create visual content using tools like Photoshop and Illustrator.
+          </p>
+          <a href="#" class="btn btn-primary">CLICK TO LEARN</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="new5.jpeg" class="card-img-top" alt="Author Image">
+        <div class="card-body">
+          <h4 class="card-title">App Development</h4>
+          <p class="card-text"> Build mobile applications for Android and iOS platforms.</p>
+          <a href="#" class="btn btn-primary">CLICK TO LEARN</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="new6.jpeg" class="card-img-top" alt="Author Image">
+        <div class="card-body">
+          <h4 class="card-title"> Cyber Security</h4>
+          <p class="card-text">Learn to protect systems and networks from cyber threats and attacks.</p>
+          <a href="#" class="btn btn-primary">CLICK TO LEARN</a>
+        </div>
+      </div>
+    </div>
+    <!-- Copy-paste above block 5 more times and change content accordingly -->
+  </div>
+</div>
+
+
+<div class="container mt-3">
+  <h3>For Any Query</h3>
+  <p>Feel Free To Contact Us.</p>
+    
+  <form action="/action_page.php" class="was-validated">
+    <div class="mb-3 mt-3">
+      <label for="uname" class="form-label">Username:</label>
+      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="mb-3">
+      <label for="pwd" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-check mb-3">
+      <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
+      <label class="form-check-label" for="myCheck">I agree on blabla.</label>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Check this checkbox to continue.</div>
+    </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<!-- Footer -->
+<footer style="background-color: #d3e263a0;">
+  <div class="container p-4">
+    <div class="d-flex flex-row flex-wrap justify-content-between">
+      <div class="flex-fill me-3 mb-4" style="min-width: 250px;">
+        <h5 class="mb-3 text-dark">Ab out Us</h5>
+        <p>We are dedicated to providing quality education and resources to help students succeed. Our mission is to make learning easy, accessible, and engaging for everyone.</p>
+      </div>
+
+      <div class="flex-fill me-3 mb-4" style="min-width: 200px;">
+        <h5 class="mb-3 text-dark">Links</h5>
+        <ul class="list-unstyled mb-0">
+          <li><a href="#!" style="color: #0a0909;">FAQ</a></li>
+          <li><a href="#!" style="color: #090000;">Classes</a></li>
+          <li><a href="#!" style="color: #0f0a0a;">Pricing</a></li>
+          <li><a href="#!" style="color: #0c0a0a;">Safety</a></li>
+        </ul>
+      </div>
+      <div class="flex-fill mb-4" style="min-width: 200px;">
+        <h5 class="mb-1 text-dark">Opening Hours</h5>
+        <table class="table" style="border-color: #666;">
+          <tbody>
+            <tr><td>Mon - Fri:</td><td>8am - 9pm</td></tr>
+            <tr><td>Sat - Sun:</td><td>8am - 1am</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright: <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
+
+
+
